@@ -1,0 +1,26 @@
+Un Videoclub tiene como fin manejar el pedido de películas, navegar por el catálogo de
+la tienda y el manejo de usuarios y socios con tarjetas recargables.
+● Solamente los socios pueden alquilar las películas con sus tarjetas.
+● El crédito de la tarjeta se actualiza, cuando se realiza alguna operación con las
+    películas.
+● Los usuarios y los socios pueden comprar películas y sus datos se guardan en
+    en el pedido realizado.
+● Cuando una película no está disponible esta es pedida.
+
+Pelicula
+*Pedida: Boolean
+
+
+Usuario
+
+Socios:Usuario
+* Tarjeta
+
+
+Tarjeta
+* Credito
+
+
+Pedido
+* usuarioComprador : Usuario
+* peliculaComprada : Pelicula
